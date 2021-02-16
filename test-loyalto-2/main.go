@@ -188,7 +188,7 @@ func main() {
 	diceQty, _ = strconv.Atoi(diceQtyString)
 
 	fmt.Printf("\nPemain = %d, Dadu = %d ",player , diceQty)
-	fmt.Println("=====================================================================")
+	fmt.Println("\n=====================================================================")
 	if player == 0 && diceQty == 0 {
 		fmt.Print("Jumlah Pemain Atau Dadu Belum Di Masukkan")
 	}else{
